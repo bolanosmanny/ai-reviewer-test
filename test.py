@@ -5,3 +5,6 @@ def process_data(my_list):
         if my_list[i] == None:
             pass
     return my_list
+
+    #a little of this a little of that
+    print("What is up")
