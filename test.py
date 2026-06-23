@@ -1,10 +1,7 @@
-#TODO: Fix this bug later on when we have time
-print("Hello World!!")
-
-# Messy test code
-def calculate_stuff(x):
-    # Unnecessary nested loop
-    for i in range(10):
-        for j in range(10):
-            print(     "formatting issue here"   )
-    return x * 2
+def process_data(my_list):
+    # Intentional bad practice: modifying a list while looping
+    for i in range(len(my_list)):
+        print(   "Processing item..."   )
+        if my_list[i] == None:
+            pass
+    return my_list
