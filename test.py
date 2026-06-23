@@ -1,13 +1,4 @@
-def process_data(my_list):
-    # Intentional bad practice: modifying a list while looping
-    for i in range(len(my_list)):
-        print(   "Processing item..."   )
-        if my_list[i] == None:
-            pass
-    return my_list
-
-    #a little of this a little of that
-    print("What is up")
-    print("I release the vishantis power")
-    print("how is it  is up")
-
+def calculate(x):
+    # Missing docstring, bad naming, and an unused variable
+    Y = 10
+    return x * 2
